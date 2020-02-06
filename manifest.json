@@ -1,0 +1,14 @@
+{
+
+  "description": "Remove purple words from U of T MD Anatomy e-modules",
+  "manifest_version": 2,
+  "name": "UT Anatomy Helper",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "matches": ["*://emodules.med.utoronto.ca/Anatomy/*"],
+      "js": ["NoPurpleWords.js"]
+    }
+  ]
+}
