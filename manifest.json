@@ -5,10 +5,28 @@
   "name": "UT Anatomy Helper",
   "version": "0.1",
 
-  "content_scripts": [
-    {
-      "matches": ["*://emodules.med.utoronto.ca/Anatomy/*"],
-      "js": ["NoPurpleWords.js"]
-    }
+  // "content_scripts": [
+  //   {
+  //     "matches": ["*://emodules.med.utoronto.ca/Anatomy/*"],
+  //     "js": ["NoPurpleWords.js"]
+  //   }
+  // ],
+
+  "background": {
+    "scripts": ["NoPurpleWords.js"]
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "19": "favicon.ico",
+      "38": "favicon.ico"
+    },
+    "default_title": "Toggle purple text"
+  },
+
+  "permissions": [
+    "*://emodules.med.utoronto.ca/Anatomy/*",
+    "activeTab",
+    "tabs"
   ]
 }
