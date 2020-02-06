@@ -9,7 +9,7 @@ setInterval(function() {
 		items[i].setAttribute("purple", true);
 	}
 	// $('text[fill="#7030A0"]').attr({"fill": "#FFFFFF", "purple": true});
-}, 1000);
+}, 300);
 
 // // Select the node that will be observed for mutations
 // const targetNode = document.getElementById('presentation-container');
