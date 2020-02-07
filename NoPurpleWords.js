@@ -1,4 +1,4 @@
-console.log("Anatomy Helper Running")
+// console.log("Anatomy Helper Running")
 // document.body.style.border = "2px solid blue";
 // $('text[fill="#7030A0"]').attr({"fill": "#FFFFFF", "purplehidden": true});
 // setInterval(function() {
@@ -12,8 +12,8 @@ console.log("Anatomy Helper Running")
 // }, 300);
 
 function toggle(tab) {
-	console.log("Toggle!");
-	console.log(tab);
+	// console.log("Toggle!");
+	// console.log(tab);
 	browser.tabs.executeScript({
 		code: `{
 			document.body.style.border = "10px solid blue";

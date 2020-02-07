@@ -3,7 +3,7 @@
   "description": "Remove purple words from U of T MD Anatomy e-modules",
   "manifest_version": 2,
   "name": "UT Anatomy Helper",
-  "version": "0.1",
+  "version": "0.1.1",
 
   // "content_scripts": [
   //   {
