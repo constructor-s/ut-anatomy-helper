@@ -16,7 +16,7 @@ function toggle(tab) {
 	// console.log(tab);
 	browser.tabs.executeScript({
 		code: `{
-			document.body.style.border = "10px solid blue";
+			// document.body.style.border = "10px solid blue";
 			let items = document.querySelectorAll('text[fill="#7030A0"]');
 			if (items.length > 0) {
 				console.log(items);
